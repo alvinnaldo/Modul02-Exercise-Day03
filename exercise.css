@@ -24,7 +24,7 @@
     word-spacing: 5px;
 }
 
-.navbar-items {
+.navbar-links {
     display: flex;
     justify-content: flex-end;
     gap:50px;
@@ -35,12 +35,12 @@
 
 }
 
-.navbar-items a {
+.navbar-links a {
     text-decoration: none;
     color:whitesmoke
 }
 
-.navbar-items a:hover {
+.navbar-links a:hover {
     color : rgb(174, 245, 233)
 }
 .intro img[alt="photo"] {
@@ -55,6 +55,7 @@
 
 .intro {
     margin : 70px 0 100px 320px; 
+
 }
 .intro h1 {
     text-align: left;
@@ -202,4 +203,34 @@
 
 h1 {
     text-align: center;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hamburger div {
+    width: 20px;
+    height: 1px;
+    background-color: white;
+}
+
+
+
+@media screen and (max-width:850px) {
+    .navbar-links {
+        display: none;
+    }
+    .hamburger {
+        display : flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .hamburger div {
+        width: 20px;
+        height: 1px;
+        background-color: white;
+    }
 }
