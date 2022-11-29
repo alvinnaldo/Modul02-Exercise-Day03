@@ -219,7 +219,7 @@ h1 {
 
 
 
-@media screen and (max-width:850px) {
+/* @media screen and (max-width:850px) {
     .navbar-items {
         
             display: flex;
@@ -254,4 +254,4 @@ h1 {
         border-radius: 50%;
         background-image : linear-gradient(to right, rgb(174, 245, 233), rgb(30, 30, 30))
     }
-}
+} */
