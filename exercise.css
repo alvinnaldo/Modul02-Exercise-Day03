@@ -24,7 +24,7 @@
     word-spacing: 5px;
 }
 
-.navbar-links {
+.navbar-items {
     display: flex;
     justify-content: flex-end;
     gap:50px;
@@ -35,12 +35,12 @@
 
 }
 
-.navbar-links a {
+.navbar-items a {
     text-decoration: none;
     color:whitesmoke
 }
 
-.navbar-links a:hover {
+.navbar-items a:hover {
     color : rgb(174, 245, 233)
 }
 .intro img[alt="photo"] {
@@ -220,17 +220,38 @@ h1 {
 
 
 @media screen and (max-width:850px) {
-    .navbar-links {
-        display: none;
-    }
-    .hamburger {
-        display : flex;
+    .navbar-items {
+        
+            display: flex;
+            justify-content: flex-start;
+            gap:50px;
+            text-align: center;
+            position: absolute;
+            left: 20px;
+            top:70px;
+            flex-direction: column;
+        
+        }
+    .navbar {
+        display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
+        align-items:center;
     }
-    .hamburger div {
-        width: 20px;
-        height: 1px;
-        background-color: white;
+    .navbar-items a {
+        color: black;
+    }
+
+    .intro{
+        margin-top: 400px;
+    }
+    .intro img[alt="photo"] {
+        position: absolute;
+        top : 450px;
+        left:80px;
+        width:200px;
+        height: 200px;
+        border-radius: 50%;
+        background-image : linear-gradient(to right, rgb(174, 245, 233), rgb(30, 30, 30))
     }
 }
