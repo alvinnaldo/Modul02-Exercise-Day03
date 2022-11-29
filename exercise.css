@@ -205,17 +205,6 @@ h1 {
     text-align: center;
 }
 
-.hamburger {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.hamburger div {
-    width: 20px;
-    height: 1px;
-    background-color: white;
-}
 
 
 
